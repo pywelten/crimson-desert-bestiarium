@@ -80,3 +80,10 @@ Diese Seite ist **kostenlos, nicht-kommerziell, unabhängig und nicht offiziell*
 - Für eine **öffentlich betriebene Webseite in Deutschland** können zusätzlich eigene Anforderungen an Impressum und Datenschutzhinweise bestehen. Diese Dokumente benötigen gegebenenfalls echte Betreiberangaben und sind nicht durch einen Urheberrechts-Disclaimer ersetzt. Der Betreiber sollte das eigenständig klären, bevor er die Seite langfristig öffentlich betreibt.
 - Extern geladene Bilder übertragen beim Aufruf technisch Verbindungsdaten an den jeweiligen Bildhost. Ohne Internet werden die Fotos nicht angezeigt; alle Lexikonfunktionen und Kategorie-Illustrationen bleiben nutzbar.
 - Ergänzt in Ausgabe 1.1: vierzehn Einträge mit besser belegten Kampf- oder Patchdaten, Boss-Revanche mit offiziellen Regeln und eine eigenständige Quellen-/Rechteseite.
+
+
+## Ausgabe 1.2 – Bossbilder & Bildquellen (27.10.2026)
+
+Neue [interaktive Bossbild-Galerie](bilder.html) mit Such- und Statusfilter, Spoilerschutz, direkten offiziellen Bossvideo-Links und Einzelquellen. Für 10 priorisierte Bosse liegt die geprüft dokumentierte Zuordnung unter [BILDER_TOP10.md](BILDER_TOP10.md) und maschinenlesbar in `bildquellen-top10.json`. `boss-bilder.js` lädt dieselben Daten in die Web-App. Das Originalbild von Weißhorn stammt vom offiziellen Pearl-Abyss-Bildserver. Vier weitere Einträge zeigen **ausdrücklich als Videovorschau gekennzeichnete** Bilder ihrer vom offiziellen Crimson-Desert-Kanal veröffentlichten Bossvideos. Bei fünf Gegnern wird kein unberechtigt übernommenes Einzelbild eingebunden. Die Standardbilder fallen bei blockierten externen Bildservern auf lokale Kategorie-Illustrationen zurück. Das Foto und die Videovorschauen sind unter den Fan-Content-Bedingungen eingebunden und keine frei lizenzierbaren Werke des Repositorys.
+
+Die Galerie ist unter `https://pywelten.github.io/crimson-desert-bestiarium/bilder.html` vorgesehen, der Deploymentstatus wird separat geprüft.
