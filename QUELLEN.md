@@ -56,3 +56,8 @@ Zwei von Pearl Abyss im offiziellen Medienbereich veröffentlichte Aufnahmen wer
 **Datenqualitätsgrenze**
 
 Die Ergänzungen betreffen 14 bestehende Einträge. Namentlich bestätigte Einträge ohne ausreichende Guidebelege erhalten **keine erfundenen** Koordinaten, Schwachstellen oder Drops. Die aus Einzelguides stammenden Strategien sind nicht mit offiziellen Patchnotes gleichzusetzen.
+
+
+## Offizielle Bildquellen Top 10 (27.10.2026)
+
+Die genaue Monster-zu-Medien-Zuordnung und die noch ungeklärten Bilder stehen unter [BILDER_TOP10.md](BILDER_TOP10.md). Direkt geprüfter Pearl-Abyss-CDN-Bildlink zu Weißhorn: https://s1.pearlcdn.com/cd/brand/media_GLOBAL/2025/03/18/3eba65e209820250318081021556.jpg. Offizieller Media-Überblick: https://crimsondesert.pearlabyss.com/en-us/Media. Bestätigte offizielle Gameplaytrailer: https://www.youtube.com/watch?v=C2OCmtmwpVA (Weißhorn), https://www.youtube.com/watch?v=B2fccBA64Ds (Hirschkönig), https://www.youtube.com/watch?v=uz2m_k6L1q4 (Riedteufel), https://www.youtube.com/watch?v=ZIsYk5MtjmY (Steinrückenkrebs-Königin), https://www.youtube.com/watch?v=rrQgbLuIzq0 (Hexe Marie). Die Thumbnail-Grafiken der vier zuletzt genannten Videos sind als Videovorschaubilder, **nicht als Einzelporträts**, zu verstehen. Bei den restlichen fünf ist die Bildfrage weiter offen; die verifizierte Namensquelle ist im JSON hinterlegt.
