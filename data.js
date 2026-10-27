@@ -10,25 +10,26 @@ window.CD_ENTRIES = [
     "location": "Anvil Hill Cave und Felsloch östlich von Hernand; weitere Orte dokumentiert",
     "difficulty": "Unbekannt",
     "element": "Unbekannt",
-    "weakness": "Unbekannt",
+    "weakness": "Lichtpunkt / Auge: Axiom Force zum Herausziehen (Community-Guide zur Steinwurm-Familie, nicht offiziell für jede Variante bestätigt).",
     "resistance": "Unbekannt",
-    "loot": "Mögliche Abyss-Ausrüstung; Steinwurm-Kerne sind nach Guides teils zufallsbasierte Beute. Nicht für alle Varianten bestätigt.",
+    "loot": "Laut Community-Guide zufälliger Power Core nach dem Besiegen; konkrete Sorte und Quote nicht garantiert.",
     "quest": "Nicht zugeordnet",
     "chapter": null,
     "spoiler": false,
     "description": "Getarntes, wurmartiges Wesen. Bei Steinwurm-Varianten lässt die Felsoptik sie wie Gelände wirken; der Hinterhalt wird bei Annäherung ausgelöst.",
-    "attacks": "Überraschungsangriff aus der Tarnung; Art und Timing je Variante nicht umfassend verifiziert.",
-    "strategy": "Als taktische Empfehlung: Bewegung beibehalten, den Ausbruch abwarten und aus sicherem Winkel kontern. Axiom Force am Auge wird von Einzelguides als effektive Methode für Steinwürmer beschrieben.",
+    "attacks": "Aus der Felstarnung heraus ein überraschender Nahkampfangriff; auf Distanz können bei dieser Kreaturenfamilie Projektile folgen (Guide-Angabe).",
+    "strategy": "Steinwürmer geben sich als Fels aus. Ein Guide beschreibt, dass Axiom Force auf dem leuchtenden Auge den Gegner sofort zum Einsturz bringen kann. Die alternative Rückleitung seiner Projektile mit Nature’s Retribution setzt passende Fertigkeiten voraus. Auf PS5 beschreiben Guides widersprüchlich R3 und das gehaltene L3 für Axiom Force: das eingeblendete Spielkommando ist maßgeblich.",
     "steps": [
-      "Verdächtige Felsformationen nur mit Ausweichreserve annähern.",
-      "Beim Auftauchen seitlich ausweichen; nicht direkt vor dem Maul bleiben.",
-      "Axiom Force am sichtbaren Auge ausprobieren (Guide-Angabe, nicht für jede Variante verifiziert).",
-      "Beute nach dem Kampf prüfen."
+      "Als Felsformation getarnte Kreatur erst aus sicherer Entfernung beobachten; das Enttarnen abwarten.",
+      "Auf das auffällige leuchtende Auge zielen. Mit Axiom Force fixieren und den Griff zurückziehen; diese Methode beschreibt ein Community-Guide als Sofort-Konter.",
+      "Alternativ bei ausreichender Freischaltung gegnerische Geschosse mit Nature’s Snare / Retribution auffangen und zurückschleudern.",
+      "Nach dem Kampf mögliche Power Cores kontrollieren; der genaue Drop ist nicht pro Variante garantiert."
     ],
     "weapons": "Nicht gegnerspezifisch bestätigt",
     "skills": [
       "Axiom Force",
-      "Force Palm"
+      "Nature’s Snare",
+      "Nature’s Retribution"
     ],
     "buttons": [
       "○",
@@ -40,9 +41,11 @@ window.CD_ENTRIES = [
     "sources": [
       "https://crimsondesert.gaming.tools/creatures/creature/creature_forest",
       "https://consolepulse.com/multiplatform/crimson-desert/guides/crimson-desert-stone-worms",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3732940921"
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3732940921",
+      "https://thegameswiki.com/crimson-desert/wiki/volcanic-stone-worm",
+      "https://thegameswiki.com/crimson-desert/wiki/axiom-force"
     ],
-    "notes": "Deutscher Name ist eine redaktionelle Übersetzung, sofern er vom englischen Namen abweicht.",
+    "notes": "Tastenbelegung nach Spielversion und Eingabekontext prüfen: detaillierter Axiom-Force-Guide nennt L3 halten/zurückziehen, einzelner Steinwurm-Guide nennt R3. Keine feste Tastenkombination ohne Ingame-Abgleich behauptet.",
     "spawns": [
       "Anvil Hill Cave",
       "Östlich von Hernand: großes Felsloch"
@@ -149,38 +152,41 @@ window.CD_ENTRIES = [
     "location": "Keine verifizierte genaue Position",
     "difficulty": "Unbekannt",
     "element": "Unbekannt",
-    "weakness": "Unbekannt",
+    "weakness": "Lichtpunkt / Auge: mit Axiom Force herausziehen (Guide-Angabe).",
     "resistance": "Unbekannt",
-    "loot": "Mögliche Abyss-Ausrüstung; Steinwurm-Kerne sind nach Guides teils zufallsbasierte Beute. Nicht für alle Varianten bestätigt.",
+    "loot": "Zufälliger Power Core (Community-Guide), keine garantierte Variante.",
     "quest": "Nicht zugeordnet",
     "chapter": null,
     "spoiler": false,
     "description": "Getarntes, wurmartiges Wesen. Bei Steinwurm-Varianten lässt die Felsoptik sie wie Gelände wirken; der Hinterhalt wird bei Annäherung ausgelöst.",
-    "attacks": "Überraschungsangriff aus der Tarnung; Art und Timing je Variante nicht umfassend verifiziert.",
-    "strategy": "Als taktische Empfehlung: Bewegung beibehalten, den Ausbruch abwarten und aus sicherem Winkel kontern. Axiom Force am Auge wird von Einzelguides als effektive Methode für Steinwürmer beschrieben.",
+    "attacks": "Steinwurmtypischer Hinterhalt durch Tarnung als Stein; Guides beschreiben außerdem Geschosse im Fernkampf.",
+    "strategy": "Nach Enttarnung das leuchtende Auge mit Axiom Force greifen und zurückziehen. Als Alternative kann Nature’s Snare in Verbindung mit Nature’s Retribution Projektile zurückwerfen. Beide Methoden stammen aus einem Community-Guide und sind nicht als offiziell garantierte Tötungsmechanik dokumentiert.",
     "steps": [
-      "Verdächtige Felsformationen nur mit Ausweichreserve annähern.",
-      "Beim Auftauchen seitlich ausweichen; nicht direkt vor dem Maul bleiben.",
-      "Axiom Force am sichtbaren Auge ausprobieren (Guide-Angabe, nicht für jede Variante verifiziert).",
-      "Beute nach dem Kampf prüfen."
+      "Als Felsformation getarnte Kreatur erst aus sicherer Entfernung beobachten; das Enttarnen abwarten.",
+      "Auf das auffällige leuchtende Auge zielen. Mit Axiom Force fixieren und den Griff zurückziehen; diese Methode beschreibt ein Community-Guide als Sofort-Konter.",
+      "Alternativ bei ausreichender Freischaltung gegnerische Geschosse mit Nature’s Snare / Retribution auffangen und zurückschleudern.",
+      "Nach dem Kampf mögliche Power Cores kontrollieren; der genaue Drop ist nicht pro Variante garantiert."
     ],
     "weapons": "Nicht gegnerspezifisch bestätigt",
     "skills": [
       "Axiom Force",
-      "Force Palm"
+      "Nature’s Snare",
+      "Nature’s Retribution"
     ],
     "buttons": [
       "○",
       "L3",
       "R3"
     ],
-    "confidence": "mixed",
+    "confidence": "guide",
     "verified": "2026-10-27",
     "sources": [
       "https://crimsondesert.gaming.tools/creatures/creature/creature_forest",
-      "https://consolepulse.com/multiplatform/crimson-desert/guides/crimson-desert-kuku-elemental-armor"
+      "https://consolepulse.com/multiplatform/crimson-desert/guides/crimson-desert-kuku-elemental-armor",
+      "https://thegameswiki.com/crimson-desert/wiki/volcanic-stone-worm",
+      "https://thegameswiki.com/crimson-desert/wiki/axiom-force"
     ],
-    "notes": "Deutscher Name ist eine redaktionelle Übersetzung, sofern er vom englischen Namen abweicht.",
+    "notes": "Die Bezeichnung ‚vulkanisch‘ allein begründet keine bestätigte Feuerresistenz. Der Guide nennt für Axiom Force teilweise R3; andere Steuerungsguides nennen L3 halten – Steuerung direkt im Spiel prüfen.",
     "spawns": [],
     "related": []
   },
@@ -2026,22 +2032,24 @@ window.CD_ENTRIES = [
     "category": "Legendäre Tiere",
     "kind": "Optionaler Weltboss / legendäres Tier",
     "region": "Hernand",
-    "location": "Nordtor Hernand → Heulende Höhle (Howling Hollow)",
+    "location": "Fraktionsquest bei Hernands Nordtor; zweiter Kampf am Heulenden Abgrund (Howling Hollow) westlich des ersten Gebiets (PowerPyx).",
     "difficulty": "Schwer",
     "element": "Unbekannt",
     "weakness": "Unbekannt",
     "resistance": "Unbekannt",
-    "loot": "Leebur’s Soul, Shadow Claw, Abyss Artifact",
-    "quest": "Legendary Wolf",
+    "loot": "Leebur’s Soul (Wissen über legendäre Tiere), 1× Shadow Claw, 1× Abyss Artifact laut PowerPyx.",
+    "quest": "Legendary Wolf / Howls from the North Gate (Haus Celeste; nach Fraktionsquests)",
     "chapter": null,
     "spoiler": false,
     "description": "Als legendäres Tier in der Kreaturendatenbank geführt. Einzelheiten zu Spawnzeit, Beute und Zähmbarkeit sind ohne zusätzlichen konkreten Guide nicht bestätigt.",
     "attacks": "Legendärer Wolf; erste Phase beim Nordtor, zweite westlich Richtung Howling Hollow.",
-    "strategy": "Blocken/Parieren der Nahkampfangriffe; beim Phasenwechsel Spur mit Laterne verfolgen.",
+    "strategy": "Nahkampfangriffe können laut Guide blockiert/pariert werden. Nach dem ersten Sieg flieht Schwarzzahn westwärts: mit Laterne Spuren suchen und am Heulenden Abgrund nochmals besiegen.",
     "steps": [
-      "Gegner zunächst aus sicherer Distanz beobachten.",
-      "Nach einem verfehlten Angriff kurz kontern.",
-      "Bei hohem Schadensrisiko heilen und erneut Abstand gewinnen."
+      "Fraktionsquest-Reihe um Haus Celeste und Hernand vorbereiten.",
+      "Quest ‚Howls from the North Gate‘ beim Nordtor starten.",
+      "Wölfe im ersten Gebiet kontrollieren und Angriffe blocken/parieren.",
+      "Nach der ersten Gesundheitsleiste der Spur mit der Laterne nach Westen folgen.",
+      "Zweiten Kampf am Heulenden Abgrund abschließen."
     ],
     "weapons": "Nicht gegnerspezifisch bestätigt",
     "skills": [],
@@ -2202,9 +2210,9 @@ window.CD_ENTRIES = [
     "quest": "Nicht zugeordnet",
     "chapter": null,
     "spoiler": false,
-    "description": "Als legendäres Tier in der Kreaturendatenbank geführt. Einzelheiten zu Spawnzeit, Beute und Zähmbarkeit sind ohne zusätzlichen konkreten Guide nicht bestätigt.",
+    "description": "Hyazinth-Ara: seit Patch 1.05.00 offiziell als legendäres Haustier registrierbar. Keine gewöhnliche Bossbegegnung.",
     "attacks": "Nicht ausreichend dokumentiert",
-    "strategy": "Abstand halten, den ersten Angriff beobachten und nur sichere Angriffsfenster nutzen. Das ist eine allgemeine Spieltaktik, keine bestätigte gegnerspezifische Schwachstelle.",
+    "strategy": "Vogel statt Kampf als Haustier gewinnen; konkrete Spawn-Bedingungen und Gegenstände sind nicht in den offiziellen Patchnotes veröffentlicht.",
     "steps": [
       "Gegner zunächst aus sicherer Distanz beobachten.",
       "Nach einem verfehlten Angriff kurz kontern.",
@@ -2218,12 +2226,13 @@ window.CD_ENTRIES = [
       "○",
       "L1"
     ],
-    "confidence": "name",
+    "confidence": "mixed",
     "verified": "2026-10-27",
     "sources": [
-      "https://crimsondesert.gaming.tools/creatures/legendaryanimal/legendaryanimal"
+      "https://crimsondesert.gaming.tools/creatures/legendaryanimal/legendaryanimal",
+      "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=88"
     ],
-    "notes": "Deutscher Name ist eine redaktionelle Übersetzung, sofern er vom englischen Namen abweicht.",
+    "notes": "Die Haustierfunktion ist offiziell belegt. Spezifische Positionen können sich je nach Questfortschritt unterscheiden; Community-Hinweise vor Ort abgleichen.",
     "spawns": [],
     "related": []
   },
@@ -2243,9 +2252,9 @@ window.CD_ENTRIES = [
     "quest": "Nicht zugeordnet",
     "chapter": null,
     "spoiler": false,
-    "description": "Als legendäres Tier in der Kreaturendatenbank geführt. Einzelheiten zu Spawnzeit, Beute und Zähmbarkeit sind ohne zusätzlichen konkreten Guide nicht bestätigt.",
+    "description": "Legendärer Vogel, seit Version 1.05.00 offiziell als zähmbares Haustier verfügbar. Sein Auftauchen setzt nach Patchnotes nicht näher benannte Bedingungen voraus.",
     "attacks": "Nicht ausreichend dokumentiert",
-    "strategy": "Abstand halten, den ersten Angriff beobachten und nur sichere Angriffsfenster nutzen. Das ist eine allgemeine Spieltaktik, keine bestätigte gegnerspezifische Schwachstelle.",
+    "strategy": "Kein gewöhnlicher Bosskampf: Zähmung / Haustierfreischaltung steht im Vordergrund. Ein Community-Guide beschreibt eine besondere Interaktion mit einem Vogelfutterplatz (Sotdae of Bond); vor einem Versuch die aktuelle Ingame-Bedingung prüfen.",
     "steps": [
       "Gegner zunächst aus sicherer Distanz beobachten.",
       "Nach einem verfehlten Angriff kurz kontern.",
@@ -2259,12 +2268,14 @@ window.CD_ENTRIES = [
       "○",
       "L1"
     ],
-    "confidence": "name",
+    "confidence": "mixed",
     "verified": "2026-10-27",
     "sources": [
-      "https://crimsondesert.gaming.tools/creatures/legendaryanimal/legendaryanimal"
+      "https://crimsondesert.gaming.tools/creatures/legendaryanimal/legendaryanimal",
+      "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=88",
+      "https://thegameswiki.com/crimson-desert/wiki/patch-1-05-00"
     ],
-    "notes": "Deutscher Name ist eine redaktionelle Übersetzung, sofern er vom englischen Namen abweicht.",
+    "notes": "Offiziell bestätigt: als neues legendäres Haustier in 1.05.00; genaue Fundort- und Zähmhinweise sind nur Guide-Angaben.",
     "spawns": [],
     "related": []
   },
@@ -2284,9 +2295,9 @@ window.CD_ENTRIES = [
     "quest": "Nicht zugeordnet",
     "chapter": null,
     "spoiler": false,
-    "description": "Als legendäres Tier in der Kreaturendatenbank geführt. Einzelheiten zu Spawnzeit, Beute und Zähmbarkeit sind ohne zusätzlichen konkreten Guide nicht bestätigt.",
+    "description": "Mit Patch 1.05.00 von Pearl Abyss offiziell hinzugefügte Kreatur. Der Berggott-Eber erscheint erst bei Erfüllung bestimmter, in den offiziellen Patchnotes nicht genannter Bedingungen.",
     "attacks": "Nicht ausreichend dokumentiert",
-    "strategy": "Abstand halten, den ersten Angriff beobachten und nur sichere Angriffsfenster nutzen. Das ist eine allgemeine Spieltaktik, keine bestätigte gegnerspezifische Schwachstelle.",
+    "strategy": "Vor dem Kampf die Auslösebedingungen anhand aktueller Questhinweise klären. Details zu Attacken, Beute und exakter Position gelten hier weiterhin als nicht offiziell bestätigt.",
     "steps": [
       "Gegner zunächst aus sicherer Distanz beobachten.",
       "Nach einem verfehlten Angriff kurz kontern.",
@@ -2300,12 +2311,13 @@ window.CD_ENTRIES = [
       "○",
       "L1"
     ],
-    "confidence": "name",
+    "confidence": "mixed",
     "verified": "2026-10-27",
     "sources": [
-      "https://crimsondesert.gaming.tools/creatures/legendaryanimal/legendaryanimal"
+      "https://crimsondesert.gaming.tools/creatures/legendaryanimal/legendaryanimal",
+      "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=88"
     ],
-    "notes": "Deutscher Name ist eine redaktionelle Übersetzung, sofern er vom englischen Namen abweicht.",
+    "notes": "Offiziell bestätigt ist die Einführung und eine unbekannte Spawn-Voraussetzung. Noch keine offiziellerseits verifizierte Spawn-Koordinate.",
     "spawns": [],
     "related": []
   },
@@ -2562,22 +2574,24 @@ window.CD_ENTRIES = [
     "category": "Legendäre Tiere",
     "kind": "Optionaler Weltboss / legendäres Tier",
     "region": "Crimson Desert",
-    "location": "Hyänenhöhle südöstlich von Tashkalp",
+    "location": "Hyänennest südöstlich von Tashkalp; erst nach Lesen einer Kopfgeldausschreibung in Tashkalp als Fraktionsquest verfügbar (PowerPyx).",
     "difficulty": "Schwer",
     "element": "Unbekannt",
     "weakness": "Unbekannt",
     "resistance": "Unbekannt",
-    "loot": "Putrid Touch, Abyss Artifact",
-    "quest": "Skevald, the Carrion King",
+    "loot": "1× Putrid Touch und 1× Abyss Artifact laut PowerPyx (Questbelohnung).",
+    "quest": "Skevald, the Carrion King (Fraktionsquest, über Kopfgeldausschreibung)",
     "chapter": null,
     "spoiler": false,
     "description": "Als legendäres Tier in der Kreaturendatenbank geführt. Einzelheiten zu Spawnzeit, Beute und Zähmbarkeit sind ohne zusätzlichen konkreten Guide nicht bestätigt.",
-    "attacks": "Giftangriffe und Hyänenrudel; flieht nach erster Lebensleiste.",
-    "strategy": "Erst das Rudel reduzieren, danach Skevald verfolgen und erneut bekämpfen.",
+    "attacks": "Giftangriffe; wird von einem Hyänenrudel begleitet und flieht nach der ersten Gesundheitsleiste.",
+    "strategy": "Erst die begleitenden Hyänen bekämpfen. Nach Skevalds Flucht mit der Laterne seine Spuren verfolgen und ihn ein zweites Mal stellen.",
     "steps": [
-      "Gegner zunächst aus sicherer Distanz beobachten.",
-      "Nach einem verfehlten Angriff kurz kontern.",
-      "Bei hohem Schadensrisiko heilen und erneut Abstand gewinnen."
+      "Kopfgeldausschreibung in Tashkalp lesen.",
+      "Zum markierten Hyänennest südöstlich der Stadt gehen.",
+      "Rudel zunächst ausdünnen, Giftkontakte vermeiden.",
+      "Nach der ersten Gesundheitsleiste flüchtet Skevald; Laterne zum Aufspüren verwenden.",
+      "Skevald auf seiner Route erneut stellen und die zweite Gesundheitsleiste besiegen."
     ],
     "weapons": "Nicht gegnerspezifisch bestätigt",
     "skills": [],
@@ -3688,13 +3702,15 @@ window.CD_ENTRIES = [
       "R2",
       "○"
     ],
-    "confidence": "guide",
+    "confidence": "mixed",
     "verified": "2026-10-27",
     "sources": [
       "https://www.powerpyx.com/crimson-desert-boss-guide-all-bosses/",
-      "https://www.powerpyx.com/crimson-desert-walkthrough-all-main-quests/"
+      "https://www.powerpyx.com/crimson-desert-walkthrough-all-main-quests/",
+      "https://crimsondesert.pearlabyss.com/de-DE/News/Notice/Detail?_boardNo=92",
+      "https://crimsondesert.pearlabyss.com/de-de/News/Notice/Detail?_boardNo=105"
     ],
-    "notes": "Deutscher Name ist eine redaktionelle Übersetzung, sofern er vom englischen Namen abweicht.",
+    "notes": "Offiziell für die Boss-Revanche bestätigt (Patch 1.07.00, ursprünglich ‚Spitze der Sonne‘); Patch 1.13.00 änderte den Erinnerungsfragment-Ort erneut. Aktuellen Fundort über Tagebuch → Wissen → Erinnerungsfragmente → Bosse prüfen. Dies betrifft NICHT den ursprünglichen Storykampf.",
     "spawns": [],
     "related": []
   },
@@ -4124,13 +4140,15 @@ window.CD_ENTRIES = [
       "R2",
       "○"
     ],
-    "confidence": "guide",
+    "confidence": "mixed",
     "verified": "2026-10-27",
     "sources": [
       "https://www.powerpyx.com/crimson-desert-boss-guide-all-bosses/",
-      "https://www.powerpyx.com/crimson-desert-walkthrough-all-main-quests/"
+      "https://www.powerpyx.com/crimson-desert-walkthrough-all-main-quests/",
+      "https://crimsondesert.pearlabyss.com/de-DE/News/Notice/Detail?_boardNo=92",
+      "https://crimsondesert.pearlabyss.com/de-de/News/Notice/Detail?_boardNo=105"
     ],
-    "notes": "Deutscher Name ist eine redaktionelle Übersetzung, sofern er vom englischen Namen abweicht.",
+    "notes": "Offiziell für die Boss-Revanche bestätigt (Patch 1.07.00, ursprünglich ‚Festung Muskete‘); Patch 1.13.00 änderte den Erinnerungsfragment-Ort erneut. Ingame-Tagebuch ist die aktuelle Referenz, nicht dieser historische Rematch-Ort.",
     "spawns": [],
     "related": []
   },
@@ -4229,23 +4247,24 @@ window.CD_ENTRIES = [
     "category": "Optionale Weltbosse",
     "kind": "Optionaler Weltboss",
     "region": "Pailune",
-    "location": "Snowhaven Hearth, westlicher Kartenrand",
+    "location": "Nahe Snowhaven Hearth, äußerster Westen von Pailune; Zugang über Skoghorn-Questreihe nach Miliz-Fraktionsquests (PowerPyx).",
     "difficulty": "Schwer",
     "element": "Unbekannt",
-    "weakness": "Feuer (Guide)",
+    "weakness": "Feuerangriffe verursachen laut PowerPyx besonders hohen Schaden.",
     "resistance": "Unbekannt",
-    "loot": "White Horn’s Earring, Frost Hail, Abyss Artifact",
+    "loot": "White Horn’s Earring, Frost Hail und 1× Abyss Artifact laut PowerPyx.",
     "quest": "White Horn of Snowhaven Hearth",
     "chapter": null,
     "spoiler": false,
     "description": "Optionaler Weltboss aus der dokumentierten „New Power“-Reihe.",
-    "attacks": "Drei Lebensleisten, wuchtige Nahkampfangriffe.",
-    "strategy": "Hinter dem Monster bleiben; laut Guide Feuerangriffe besonders effektiv.",
+    "attacks": "Langsame wuchtige Nahkampfangriffe; Kampf über drei Gesundheitsleisten.",
+    "strategy": "Seitlich ausweichen und nach schweren Treffern von hinten angreifen; mit freigeschalteter Feuerverstärkung zusätzlichen Schaden erzielen. In der letzten Gesundheitsleiste greift eine weitere Storyfigur ins Geschehen ein (Details spoilerabhängig).",
     "steps": [
-      "Vorausgesetzte Fraktionsquest prüfen: White Horn of Snowhaven Hearth.",
-      "Fundort aufsuchen: Snowhaven Hearth, westlicher Kartenrand.",
-      "Mechanik erkennen: Drei Lebensleisten, wuchtige Nahkampfangriffe..",
-      "Taktik anwenden: Hinter dem Monster bleiben; laut Guide Feuerangriffe besonders effektiv."
+      "Miliz-Fraktionsquests in Pailune und anschließend Skoghorn-Questreihe beginnen.",
+      "Quest zum Weißhorn-Gebiet nahe Snowhaven Hearth verfolgen.",
+      "Auf Distanz schwerem Angriff ausweichen und hinten kurz kontern.",
+      "Nach Möglichkeit mit Feuerverstärkung angreifen.",
+      "Drei Gesundheitsleisten nacheinander bewältigen."
     ],
     "weapons": "Nicht gegnerspezifisch bestätigt",
     "skills": [],
@@ -4273,23 +4292,24 @@ window.CD_ENTRIES = [
     "category": "Fliegende Kreaturen",
     "kind": "Optionaler Weltboss",
     "region": "Pailune",
-    "location": "Harpy Nest, Berg in Pailune",
+    "location": "Harpiennest (Harpy Nest) auf dem Berg in Pailune; über Fraktionsquest ‚Queen of the Skies‘ erschlossen (PowerPyx).",
     "difficulty": "Schwer",
     "element": "Unbekannt",
     "weakness": "Unbekannt",
     "resistance": "Unbekannt",
-    "loot": "Eye of the Sky, Pillar of Wind, Infinite Arrows II",
-    "quest": "Queen of the Skies",
+    "loot": "Eye of the Sky (Tribal-State-of-Pailune-Wissen), Pillar of Wind und Infinite Arrows II laut PowerPyx.",
+    "quest": "Queen of the Skies (Miliz von Pailune)",
     "chapter": null,
     "spoiler": false,
     "description": "Optionaler Weltboss aus der dokumentierten „New Power“-Reihe.",
-    "attacks": "Sturzflüge und Distanzattacken.",
-    "strategy": "Mit dem Bogen angreifen, wenn sie schwebt; nach Sturzangriff Nahkampffenster nutzen.",
+    "attacks": "Flugphasen mit Fernangriffen, Sturzflug, kurzes Schweben über der Arena.",
+    "strategy": "Bogen oder andere Fernkampfwaffe nutzen, solange sie fliegt; nach dem Sturzflug ausweichen und in der kurzen Schwebphase im Nahkampf treffen.",
     "steps": [
-      "Vorausgesetzte Fraktionsquest prüfen: Queen of the Skies.",
-      "Fundort aufsuchen: Harpy Nest, Berg in Pailune.",
-      "Mechanik erkennen: Sturzflüge und Distanzattacken..",
-      "Taktik anwenden: Mit dem Bogen angreifen, wenn sie schwebt; nach Sturzangriff Nahkampffenster nutzen."
+      "Quest ‚Queen of the Skies‘ in Pailune freischalten.",
+      "Zum Harpy Nest auf dem Berg gelangen.",
+      "Fernangriffen ausweichen und im Flug mit Bogen treffen.",
+      "Beim Anflug seitlich ausweichen, danach kurz Nahkampfschaden anbringen.",
+      "Kleinere Harpien bei Bedarf ignorieren; nach Bossabschluss verschwinden sie laut Guide."
     ],
     "weapons": "Nicht gegnerspezifisch bestätigt",
     "skills": [],
@@ -4317,23 +4337,24 @@ window.CD_ENTRIES = [
     "category": "Spinnen & Insekten",
     "kind": "Optionaler Weltboss",
     "region": "Hernand",
-    "location": "Arboria Castle",
+    "location": "Arboria Castle, Hernand; über die Fraktionsquest ‚Queen’s Nest‘ (Haus Celeste) (PowerPyx).",
     "difficulty": "Schwer",
     "element": "Unbekannt",
-    "weakness": "Feuer (Guide)",
+    "weakness": "Feuer: laut Guide brennt die Königin und fällt von der Wand, wodurch sie angreifbar wird.",
     "resistance": "Unbekannt",
-    "loot": "Stirrups of the Open Sky, Queen’s Fans, Abyss Artifact",
-    "quest": "Queen’s Nest",
+    "loot": "Stirrups of the Open Sky, Queen’s Fans und 1× Abyss Artifact laut PowerPyx.",
+    "quest": "Queen’s Nest (Haus Celeste; nach vorausgehenden Fraktionsquests)",
     "chapter": null,
     "spoiler": false,
     "description": "Optionaler Weltboss aus der dokumentierten „New Power“-Reihe.",
-    "attacks": "Klettert an Wänden, versprüht Gift und ruft kleinere Spinnen.",
-    "strategy": "Mit Feuer treffen: nach Guide fällt sie dann von der Wand.",
+    "attacks": "Giftgeschosse, Klettern an Wänden, Beschwörung kleiner Spinnen; viele kleine Spinnen können bei Treffern explodieren.",
+    "strategy": "Kleine explosive Spinnen nicht unnötig aktivieren; die Königin mit Feuer treffen, um sie von der Wand herunterzuholen, dann am Boden konzentriert angreifen.",
     "steps": [
-      "Vorausgesetzte Fraktionsquest prüfen: Queen’s Nest.",
-      "Fundort aufsuchen: Arboria Castle.",
-      "Mechanik erkennen: Klettert an Wänden, versprüht Gift und ruft kleinere Spinnen..",
-      "Taktik anwenden: Mit Feuer treffen: nach Guide fällt sie dann von der Wand."
+      "Quest ‚Queen’s Nest‘ über Fraktionsfortschritt freischalten.",
+      "Arboria Castle betreten und kleine explosive Spinnen vorsichtig umgehen.",
+      "Wenn die Königin an der Wand hängt, Feuerangriffe ausprobieren.",
+      "Während des Feuer-Sturzes die Schadensphase nutzen.",
+      "Beschworenen Spinnen ausweichen und Giftgeschosse meiden."
     ],
     "weapons": "Nicht gegnerspezifisch bestätigt",
     "skills": [],
@@ -4361,26 +4382,29 @@ window.CD_ENTRIES = [
     "category": "Krabben & Panzerwesen",
     "kind": "Optionaler Weltboss",
     "region": "Delesyia",
-    "location": "Stoneback Crab Wetlands, nördlich Redfox Trading Post",
+    "location": "Stoneback Crab Wetlands nördlich des Redfox Trading Post in Delesyia; Quest ‚The Queen’s Lake‘ nach ‚The Wolf’s Ballad‘ (PowerPyx).",
     "difficulty": "Schwer",
     "element": "Unbekannt",
-    "weakness": "Unbekannt",
+    "weakness": "Drei grüne Punkte auf dem Rücken, zunächst durch helle Diamantkristalle verdeckt. Zweite Phase: braune Gefäße auf dem Rücken (PowerPyx).",
     "resistance": "Unbekannt",
-    "loot": "Abyss Artifact sowie abgelöste Materialien",
-    "quest": "The Queen’s Lake",
+    "loot": "1× Abyss Artifact sowie eingesammelte Krabbenmaterialien laut PowerPyx.",
+    "quest": "The Wolf’s Ballad → The Queen’s Lake",
     "chapter": null,
     "spoiler": false,
     "description": "Optionaler Weltboss aus der dokumentierten „New Power“-Reihe.",
-    "attacks": "Rückenpanzer mit Kristallen; zwei Phasen.",
-    "strategy": "Kristalle zerstören, drei freigelegte Punkte mit aufgeladenem Stich treffen, danach Krüge auf dem Rücken schlagen.",
+    "attacks": "Große bewegliche gepanzerte Kreatur; Kampf mit zwei Gesundheitsleisten und kletterbasierten Schwachstellen.",
+    "strategy": "Auf den Rücken klettern, mit Turning Slash die Kristalle aufbrechen und die drei grünen Schwachpunkte aus nächster Nähe angreifen. Danach die braunen Gefäße in der zweiten Phase zerstören.",
     "steps": [
-      "Vorausgesetzte Fraktionsquest prüfen: The Queen’s Lake.",
-      "Fundort aufsuchen: Stoneback Crab Wetlands, nördlich Redfox Trading Post.",
-      "Mechanik erkennen: Rückenpanzer mit Kristallen; zwei Phasen..",
-      "Taktik anwenden: Kristalle zerstören, drei freigelegte Punkte mit aufgeladenem Stich treffen, danach Krüge auf dem Rücken schlagen."
+      "Quest ‚The Wolf’s Ballad‘ am Redfox Trading Post erledigen.",
+      "Mit ‚The Queen’s Lake‘ in die Stoneback Crab Wetlands gehen.",
+      "Kreatur im Zentrum der Lichtung aktivieren und auf ihren Rücken gelangen.",
+      "Mit Turning Slash (R1 + R2 laut PowerPyx) Kristalle zerstören.",
+      "Drei freigelegte Schwachpunkte anstechen; in Phase zwei die braunen Gefäße zerstören."
     ],
     "weapons": "Nicht gegnerspezifisch bestätigt",
-    "skills": [],
+    "skills": [
+      "Turning Slash"
+    ],
     "buttons": [
       "R1",
       "R2",
@@ -4405,26 +4429,29 @@ window.CD_ENTRIES = [
     "category": "Krabben & Panzerwesen",
     "kind": "Optionaler Weltboss",
     "region": "Crimson Desert",
-    "location": "Südlich von Well of Enlightenment",
+    "location": "Crimson-Desert-Region, direkt südlich des Well of Enlightenment; laut Guide ohne Questvoraussetzung erreichbar.",
     "difficulty": "Schwer",
     "element": "Unbekannt",
-    "weakness": "Unbekannt",
+    "weakness": "Drei helle Schwachstellen unter zerstörbaren Rücken-Kristallen; in Phase zwei braune Gefäße.",
     "resistance": "Unbekannt",
-    "loot": "30 × Bismuth Ore, Abyss Artifact",
+    "loot": "30× Bismuth Ore und 1× Abyss Artifact laut PowerPyx.",
     "quest": "Dangerous Sparkle",
     "chapter": null,
     "spoiler": false,
     "description": "Optionaler Weltboss aus der dokumentierten „New Power“-Reihe.",
-    "attacks": "Kristallgeschützter Rücken mit drei Schwachpunkten.",
-    "strategy": "Kristalle mit Turning Slash öffnen; auf dem Rücken drei Punkte mit Stich treffen.",
+    "attacks": "Zwei Gesundheitsleisten; gepanzerter Rücken mit zerstörbaren Kristallen.",
+    "strategy": "Auf die Krabbe klettern. Kristalle per Turning Slash aufbrechen, drei Punkte attackieren; anschließend braune Gefäße auf ihrem Rücken zerschlagen.",
     "steps": [
-      "Vorausgesetzte Fraktionsquest prüfen: Dangerous Sparkle.",
-      "Fundort aufsuchen: Südlich von Well of Enlightenment.",
-      "Mechanik erkennen: Kristallgeschützter Rücken mit drei Schwachpunkten..",
-      "Taktik anwenden: Kristalle mit Turning Slash öffnen; auf dem Rücken drei Punkte mit Stich treffen."
+      "Südlich des Well of Enlightenment aufsuchen.",
+      "Auf den Rücken klettern.",
+      "Kristalle mit Turning Slash (R1 + R2 laut Guide) zerstören.",
+      "Drei Punkte mit einem kräftigen Stich bearbeiten.",
+      "In Phase zwei die braunen Gefäße attackieren."
     ],
     "weapons": "Nicht gegnerspezifisch bestätigt",
-    "skills": [],
+    "skills": [
+      "Turning Slash"
+    ],
     "buttons": [
       "R1",
       "R2",
@@ -4941,6 +4968,7 @@ window.CD_ENTRIES = [
     "related": []
   }
 ];
+
 window.CD_SOURCES = {
   "cam": "https://crimsondesert.gaming.tools/creatures/creature/creature_forest",
   "legen": "https://crimsondesert.gaming.tools/creatures/legendaryanimal/legendaryanimal",
