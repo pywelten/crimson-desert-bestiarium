@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="de"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#121318"><meta name="description" content="Verifizierter Bildquellenkatalog für zehn Crimson-Desert-Bosse. Inoffizielles, nicht-kommerzielles Fanprojekt.">
+<title>Bossbilder & Bildquellen | Das Bestiarium von Pywel</title>
+<link rel="icon" href="assets/boss.svg" type="image/svg+xml">
+<style>
+:root{color-scheme:dark;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;background:#121318;color:#f1e8dc;font-size:16px}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 70% -20%,#3c251f 0,transparent 48%),#121318;min-height:100vh}
+a{color:#e9b98a}a:hover{color:#ffe1ba}button,input{font:inherit}button{cursor:pointer}
+.wrap{width:min(1320px,calc(100% - 40px));margin:auto}.top{border-bottom:1px solid #423d3b;background:#17171bf2;position:sticky;z-index:5;top:0;backdrop-filter:blur(12px)}
+.nav{display:flex;align-items:center;gap:22px;justify-content:space-between;padding:16px 0}
+.brand{color:#f6ecdc;text-decoration:none;font-size:1rem;font-weight:800;letter-spacing:.11em}.brand b{color:#e2b489}
+.sub{display:block;font-size:.63rem;letter-spacing:.13em;color:#ab9c8f;font-weight:650;margin-top:3px}
+.nav a.back{font-size:.86rem;text-decoration:none;border:1px solid #5d5448;padding:9px 14px;border-radius:8px}
+.label{font-size:.66rem;text-transform:uppercase;letter-spacing:.14em;color:#d3a46e;font-weight:750}
+.hero{padding:58px 0 29px}.hero h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(2.2rem,6vw,4.3rem);line-height:1.05;max-width:750px;margin:12px 0}
+.hero p{color:#b7aea7;line-height:1.75;max-width:760px}.stats{display:flex;gap:14px;flex-wrap:wrap;margin:25px 0}
+.stat{background:#211f21;border:1px solid #4a3e33;border-radius:9px;padding:13px 18px;min-width:150px}.stat strong{display:block;font-size:1.45rem;color:#edd1b0;font-weight:700}.stat span{display:block;color:#afa49d;font-size:.74rem;margin-top:3px}
+.notice{border-left:3px solid #cd9a69;background:#2b2521;border-radius:0 9px 9px 0;padding:16px 21px;color:#d3c5b4;font-size:.88rem;line-height:1.6;margin:22px 0}
+.controls{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:26px 0}
+input[type=search],select{background:#232327;color:#f1e8dc;border:1px solid #5b5048;border-radius:8px;padding:13px 15px;min-height:43px}
+input[type=search]{flex:1;min-width:240px}.spoiler-btn{background:#432d24;border:1px solid #ad7a52;color:#f2d9b5;padding:12px 14px;border-radius:8px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.card{background:#201f21;border:1px solid #51463d;border-radius:14px;overflow:hidden;display:flex;min-height:235px}
+.art{width:42%;min-height:250px;position:relative;background:linear-gradient(130deg,#382d28,#101114);flex-shrink:0;overflow:hidden}
+.art img{width:100%;height:100%;object-fit:cover;display:block;position:absolute}
+.poster{position:absolute;bottom:10px;left:10px;right:10px;background:#141317db;color:#fff0dd;border-radius:7px;padding:6px 8px;font-size:.66rem;text-transform:uppercase;letter-spacing:.035em;font-weight:750}
+.info{padding:21px 19px;display:flex;flex-direction:column;gap:9px;flex:1;min-width:0}
+.card h2{font:600 1.28rem/1.2 Georgia,serif;margin:0}.original{font-size:.75rem;color:#aa9c91}
+.info p{margin:0;font-size:.83rem;color:#c5b8ad;line-height:1.6}
+.status{align-self:flex-start;font-size:.65rem;font-weight:800;letter-spacing:.06em;border-radius:99px;padding:6px 9px;border:1px solid #6e5a44;color:#edd4b7}
+.status.confirmed{background:#294037;border-color:#629277;color:#caefdb}
+.status.video{background:#2b3546;border-color:#677fa0;color:#c6def8}
+.status.pending{color:#c5b4a1}
+.bottom{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:10px}
+.bottom a{font-size:.76rem;text-decoration:none;border:1px solid #665748;padding:9px 11px;border-radius:6px;display:inline-block}
+.credit{margin-top:7px;font-size:.68rem!important;color:#ab9c8f!important}
+.empty{text-align:center;border:1px dashed #645147;border-radius:12px;padding:36px;color:#baa99c}
+.footer{margin-top:50px;padding:30px 0 50px;border-top:1px solid #443b37;color:#ad9d92;font-size:.77rem;line-height:1.8}
+.footer strong{color:#edcaad}.footer p{max-width:900px}.footer a{margin-right:12px}
+@media(max-width:950px){.grid{grid-template-columns:1fr}.art{min-height:225px}}
+@media(max-width:550px){.wrap{width:min(100% - 24px,1320px)}.card{display:block}.art{width:100%;height:220px;min-height:0}.card h2{font-size:1.4rem}.hero{padding-top:36px}.stat{flex:1;min-width:95px}.nav{gap:8px}.nav a.back{padding:8px;font-size:.75rem}.controls{align-items:stretch;flex-direction:column}.controls input[type=search]{min-width:0;width:100%}}
+@media(prefers-reduced-motion:no-preference){.card{transition:transform .2s ease,border-color .2s ease}.card:hover{transform:translateY(-2px);border-color:#b58c5c}}
+@media print{.top,.controls,.bottom,.spoiler-btn{display:none!important}.card{break-inside:avoid}}
+</style></head><body>
+<header class="top"><nav class="wrap nav" aria-label="Navigation"><a href="index.html#/start" class="brand"><b>✦</b> PYWEL BESTIARIUM <span class="sub">UNABHÄNGIGES FANPROJEKT</span></a><a href="index.html#/start" class="back">← Zum Monsterlexikon</a></nav></header>
+<main class="wrap">
+<section class="hero"><span class="label">Bildrecherche · 27. Oktober 2026</span><h1>Bossbilder <em style="color:#cc9972">&amp; Bildquellen</em></h1><p>Diese Übersicht trennt eindeutig zuordenbare Originalbilder, offiziell veröffentlichte Video-Vorschauen und noch offene Bildrecherchen. Nur der Status „Offizielles Originalbild“ bestätigt eine eigenständige Bildzuordnung. Alle anderen Einträge bleiben transparent als Video oder Platzhalter markiert.</p>
+<div class="stats"><div class="stat"><strong id="photo-count">1</strong><span>Offizielles Originalbild</span></div><div class="stat"><strong id="video-count">4</strong><span>Offizielle Video-Vorschauen</span></div><div class="stat"><strong id="pending-count">5</strong><span>Bilder in Recherche</span></div></div>
+</section>
+<div class="notice"><strong>Inoffizielles, nicht-kommerzielles Fanprojekt.</strong> © Pearl Abyss Corp. für offizielle Spielbilder und Videovorschauen. Wir übernehmen keine fremden Community-Screenshots ohne ausreichende Rechteklärung. Die Videos stammen vom verifizierten Crimson-Desert-Kanal und zeigen teils Gamescom-/G-STAR-Demoversionen. Video-Vorschaubilder sind keine gesicherten Einzelporträts. Der Besuch externer Bildserver und Videos kann Verbindungsdaten an diese Dienste übermitteln.</div>
+<section class="controls" aria-label="Katalog filtern"><input id="search" type="search" placeholder="Gegner, Quelle oder Status suchen…" aria-label="Bilder durchsuchen">
+<select id="status" aria-label="Bildstatus"><option value="">Alle Bildstatus</option><option value="offizielles-bild">Offizielle Einzelbilder</option><option value="offizielles-video">Offizielle Videos</option><option value="bild-ausstehend">Bild offen</option></select>
+<button class="spoiler-btn" type="button" id="spoiler" aria-pressed="false">Storyspoiler einblenden</button>
+</section>
+<section id="grid" class="grid" aria-live="polite"></section>
+</main>
+<footer class="footer"><div class="wrap"><strong>PYWEL BESTIARIUM – FANPROJEKT · Keine Verbindung zu Pearl Abyss.</strong><p>Crimson Desert © Pearl Abyss Corp. Die Marken, Spielaufnahmen und Charaktere gehören den jeweiligen Rechteinhabern. Der Beitrag ist keine offizielle Website. Offizielle Fotos und YouTube-Vorschaubilder sind nicht Teil einer freien Softwarelizenz.</p>
+<a href="https://crimsondesert.pearlabyss.com/en-us/Media" target="_blank" rel="noopener noreferrer">Pearl Abyss Medien ↗</a>
+<a href="https://crimsondesert.pearlabyss.com/de-DE/News/Notice/Detail?_boardNo=28" target="_blank" rel="noopener noreferrer">Boss-Trailer ↗</a>
+<a href="https://crimsondesert.pearlabyss.com/de-de/Policy?_policyNo=130" target="_blank" rel="noopener noreferrer">Fan-Content-Richtlinien ↗</a>
+<a href="index.html#/rechtliches">Rechtliche Hinweise</a></div></footer>
+<script src="boss-bilder.js"></script>
+<script>
+(()=>{
+"use strict";
+const list=Array.isArray(window.PYWEL_BOSS_MEDIA)?window.PYWEL_BOSS_MEDIA:[];
+let spoilers=false;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const verifiedPoster=url=>{try{const u=new URL(url);return u.protocol==="https:"&&u.hostname==="s1.pearlcdn.com"&&u.pathname.startsWith("/cd/brand/media_GLOBAL/")&&/\.jpg$/i.test(u.pathname)?u.href:null}catch{return null}};
+const videoPoster=url=>{try{const u=new URL(url);const id=u.hostname==="www.youtube.com"?u.searchParams.get("v"):null;return /^[A-Za-z0-9_-]{11}$/.test(id||"")?"https://i.ytimg.com/vi/"+id+"/hqdefault.jpg":null}catch{return null}};
+const link=(url,label)=>{if(!url)return "";try{const u=new URL(url);if(u.protocol!=="https:")return "";return '<a href="'+esc(u.href)+'" target="_blank" rel="noopener noreferrer">'+esc(label)+' ↗</a>'}catch{return ""}};
+const spoilerIds=new Set(["reed-devil","hexe-marie"]);
+function render(){
+const q=$("search").value.toLocaleLowerCase("de").trim(),status=$("status").value;
+const shown=list.filter(x=>(!status||x.status===status)&&[x.name,x.original,x.id,x.evidence,x.status].join(" ").toLocaleLowerCase("de").includes(q));
+$("photo-count").textContent=list.filter(x=>x.status==="offizielles-bild").length;
+$("video-count").textContent=list.filter(x=>x.status==="offizielles-video").length;
+$("pending-count").textContent=list.filter(x=>x.status==="bild-ausstehend").length;
+$("grid").innerHTML=shown.map(m=>{
+ const hidden=!spoilers&&spoilerIds.has(m.id),pic=!hidden?verifiedPoster(m.imageUrl):null,
+ vid=!hidden?videoPoster(m.videoUrl):null,image=pic||vid||"assets/boss.svg",isPhoto=!!pic,isVideo=!pic&&!!vid;
+ const label=hidden?"Storyspoiler ausgeblendet":isPhoto?"Offizielles Originalbild":isVideo?"Offizielles Video (Vorschau)":"Originalbild noch offen";
+ const name=hidden?"Storyboss – Name verborgen":m.name;
+ const caption=hidden?"Spoilerfreigabe erforderlich":isPhoto?"© Pearl Abyss Corp. · offizielles Bossmotiv":isVideo?"© Pearl Abyss Corp. · Video-Vorschaubild, kein geprüftes Einzelfoto":"Eigenständiger Symbolplatzhalter – kein Gameplay-Foto";
+ return '<article class="card"><div class="art"><img loading="lazy" src="'+esc(image)+'" alt="'+esc(hidden?"Storyboss verborgen":isPhoto?m.imageAlt:isVideo?"Vorschau eines offiziell veröffentlichten Bossvideos":"Nicht authentische Kategorieillustration")+'" onerror="this.onerror=null;this.src=\'assets/boss.svg\'"><span class="poster">'+esc(isPhoto?"Offizielles Bild":isVideo?"Offizieller Videokanal":"Bild ausstehend")+'</span></div><div class="info"><span class="status '+(isPhoto?"confirmed":isVideo?"video":"pending")+'">'+esc(label)+'</span><h2>'+esc(name)+'</h2>'+(hidden?"":'<div class="original">'+esc(m.original)+'</div>')+'<p>'+esc(hidden?"Im Lexikon bleiben Storybosse geschützt. Aktiviere den Spoilermodus, um die Quellen zu sehen.":m.evidence)+'</p>'+(hidden?"":'<p>'+esc(m.notes)+'</p>')+'<div class="bottom">'+(hidden?"":'<a href="index.html#/monster/'+encodeURIComponent(m.id)+'">Zum Monster-Guide →</a>'+link(m.videoUrl,"Originalvideo ansehen")+link(m.imageSource||m.sourceUrl,isPhoto?"Bildquelle ansehen":"Quellenbeleg"))+'</div><p class="credit">'+esc(caption)+'</p></div></article>';
+}).join("")||'<div class="empty">Keine passenden Einträge gefunden.</div>';
+}
+$("search").addEventListener("input",render);
+$("status").addEventListener("change",render);
+$("spoiler").addEventListener("click",()=>{spoilers=!spoilers;$("spoiler").textContent=spoilers?"Storyspoiler ausblenden":"Storyspoiler einblenden";$("spoiler").setAttribute("aria-pressed",String(spoilers));render()});
+render();
+})();
+</script>
+</body></html>
