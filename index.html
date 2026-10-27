@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101215">
+  <meta name="description" content="Unabhängiges deutschsprachiges Monsterlexikon und Boss-Guide für Crimson Desert. 117 recherchierte Einträge, Sammlungstracker und persönliche Notizen.">
+  <title>Das Bestiarium von Pywel · Crimson Desert Fan-Guide</title>
+  <link rel="icon" href="assets/boss.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body class="theme-dark">
+  <a class="skip" href="#content">Zum Inhalt springen</a>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar" aria-label="Hauptnavigation">
+      <a class="brand" href="#/start" aria-label="Bestiarium: Startseite"><span class="brand-mark">✦</span><span><strong>PYWEL</strong><small>DAS BESTIARIUM</small></span></a>
+      <div class="nav-label">ENTDECKEN</div>
+      <nav id="main-nav" class="nav">
+        <a href="#/start" data-route="start"><span class="nav-icon">◈</span>Übersicht</a>
+        <a href="#/lexikon" data-route="lexikon"><span class="nav-icon">▦</span>Monsterlexikon <span class="nav-count" id="sidebar-count"></span></a>
+        <a href="#/boss" data-route="boss"><span class="nav-icon">♜</span>Boss-Guide</a>
+        <a href="#/fundorte" data-route="fundorte"><span class="nav-icon">⌖</span>Fundorte</a>
+      </nav>
+      <div class="nav-label">DEIN ABENTEUER</div>
+      <nav class="nav">
+        <a href="#/sammlung" data-route="sammlung"><span class="nav-icon">◉</span>Meine Sammlung</a>
+        <a href="#/kampf" data-route="kampf"><span class="nav-icon">⚔</span>Kampfsystem & PS5</a>
+        <a href="#/daten" data-route="daten"><span class="nav-icon">✎</span>Datenbank bearbeiten</a>
+        <a href="#/quellen" data-route="quellen"><span class="nav-icon">≡</span>Quellen & Änderungen</a>
+      </nav>
+      <div class="sidebar-bottom"><div class="save-indicator"><span class="status-dot"></span> Lokal gespeichert</div><div class="sidebar-progress"><div class="meta"><span>Deine Erkundung</span><strong id="side-pct">0 %</strong></div><div class="progressbar"><i id="side-progress"></i></div></div><p>Inoffizieller Fan-Guide · Ohne Konto oder Tracking.</p></div>
+    </aside>
+    <div class="site-panel">
+      <header class="topbar"><div class="topbar-left"><button type="button" class="icon-btn menu-button" id="menu-btn" aria-label="Navigation öffnen" aria-expanded="false">☰</button><span class="breadcrumb" id="breadcrumb">Übersicht</span></div><div class="header-actions"><button type="button" id="favorite-shortcut" class="small-action" title="Nur Favoriten anzeigen">☆ <span class="desktop-only">Favoriten</span></button><button type="button" id="spoiler-toggle" class="small-action" title="Spoileranzeige ändern">◈ <span class="desktop-only">Spoiler aus</span></button><button type="button" id="theme-toggle" class="icon-btn" aria-label="Darstellung wechseln" title="Hell-/Dunkelmodus">☼</button></div></header>
+      <main id="content" tabindex="-1"></main>
+      <footer class="footer"><span>PYWEL BESTIARY · Eigenständiges Fanprojekt · Keine Verbindung zu Pearl Abyss.</span><span>Recherche-Stand: 27.10.2026 · Daten manuell erweiterbar</span></footer>
+    </div>
+  </div>
+  <div class="backdrop" id="backdrop" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <input type="file" id="import-file" accept=".json,application/json" hidden>
+</body>
+</html>
