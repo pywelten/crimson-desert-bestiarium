@@ -31,3 +31,10 @@
 4. JSON herunterladen und anschließend wieder importieren.
 5. Storyspoiler und Filter testen.
 6. Quellen-Links und die Druckansicht stichprobenartig öffnen.
+
+
+## 27.10.2026 – Repository-Update 1.1
+
+Per GitHub-Dateiabfrage kontrolliert: `index.html`, `app.js`, `data.js`, `styles.css`, `monster-daten.json` sind vorhanden. JavaScript-Syntax für `app.js` und `data.js` mit Syntaxparser geprüft; JSON mit **117 Einträgen** validiert. Datenblätter `monster-daten.json` und `data.js` im gleichen Release aktualisiert. Navigation und Routing um `#/rechtliches` ergänzt. Sichtbare Bildnachweise, Fan-Content-Links, zusätzlicher Boss-Revanche-Block (mit Spoilerschalter) und neue Quellen eingebaut.
+
+**Nicht vollständig automatisiert geprüft:** Laufzeit-Rendering auf allen Smartphones, offizielle Pearl-Abyss-Hotlink-Bilder in jedem Endnutzerbrowser und veröffentlichte GitHub-Pages-URL. Die Bilder werden extern geladen. Nach Deploy bitte die Startseite und `#/rechtliches` im Browser öffnen sowie Console/Network-Fehler und Spoilerdarstellung prüfen. Die Prüfung ersetzt keine rechtliche Beratung zu Impressum und Datenschutz.
