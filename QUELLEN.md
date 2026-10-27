@@ -29,3 +29,30 @@ Eine Quellen-URL steht auch beim jeweiligen Monstereintrag. **Die 117 Datensätz
 ## Überprüfung und Aktualisierung
 
 Bei jedem zusätzlichen Spielpatch besonders prüfen: umbenannte Gegner, veränderte Controllerbelegung, Bossphasen, Drop-Raten, neu freigeschaltete Regionen und DLC-Kreaturen. Ohne neue Recherche diese Felder **nicht** auf „bestätigt“ setzen. Spezifische Resistenzen, Belohnungen oder Tastenfolgen sind als *Unbekannt* belassen, wenn die recherchierten Quellen sie nicht eindeutig tragen.
+
+
+## Nachtrag 27.10.2026 · Ausgabe 1.1
+
+**Pearl Abyss – primäre Rechts-/Bildquellen**
+
+- Fan-Content-Richtlinien (deutsch): https://crimsondesert.pearlabyss.com/de-de/Policy?_policyNo=130
+- Offizielles Fan-Kit: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=25
+- Offizielle Medien: https://crimsondesert.pearlabyss.com/en-us/Media
+- Offizieller Patch 1.05.00 (Boss-Revanche, legendäre Tiere, Berggott-Eber): https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=88
+- Offizieller Patch 1.07.00 (zusätzliche Revanche-Bosse): https://crimsondesert.pearlabyss.com/de-DE/News/Notice/Detail?_boardNo=92
+- Offizieller Patch 1.13.00 (veränderte Erinnerungsfragmente): https://crimsondesert.pearlabyss.com/de-de/News/Notice/Detail?_boardNo=105
+
+**Guide-Belege für Datenbank-Erweiterung**
+
+- PowerPyx, sieben New-Power-Bosse: https://www.powerpyx.com/crimson-desert-all-new-power-boss-locations/
+- The Games Wiki, vulkanischer Steinwurm: https://thegameswiki.com/crimson-desert/wiki/volcanic-stone-worm
+- The Games Wiki, Axiom Force PS5: https://thegameswiki.com/crimson-desert/wiki/axiom-force
+- The Games Wiki, Patch-1.05-Guide: https://thegameswiki.com/crimson-desert/wiki/patch-1-05-00
+
+**Bildnachweise**
+
+Zwei von Pearl Abyss im offiziellen Medienbereich veröffentlichte Aufnahmen werden ausschließlich im klar gekennzeichneten Bereich „Offizielle Bilder aus Pywel“ verwendet. Die Bilddateien verbleiben beim offiziellen CDN; die Website gibt die Quellen und © Pearl Abyss Corp. direkt am jeweiligen Bild an. Es sind **allgemeine Spielimpressionen**, keine sicher zugeordneten Monsterporträts. Individuelle Monsterbilder sind weiterhin eigene künstlerische Kategorieplatzhalter, sofern keine konkrete und überprüfbare offizielle Illustration vorliegt.
+
+**Datenqualitätsgrenze**
+
+Die Ergänzungen betreffen 14 bestehende Einträge. Namentlich bestätigte Einträge ohne ausreichende Guidebelege erhalten **keine erfundenen** Koordinaten, Schwachstellen oder Drops. Die aus Einzelguides stammenden Strategien sind nicht mit offiziellen Patchnotes gleichzusetzen.
