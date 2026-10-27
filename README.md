@@ -1,6 +1,6 @@
 # PYWEL · Das Bestiarium
 
-**Inoffizielles deutschsprachiges Crimson-Desert-Fanprojekt**, Stand **27. Oktober 2026**.
+**Inoffizielles, unabhängiges, nicht-kommerzielles deutschsprachiges Crimson-Desert-Fanprojekt**, Stand **27. Oktober 2026**, redaktionelle Ausgabe **1.1**. **Keine Verbindung zu, Förderung durch oder Freigabe von Pearl Abyss.**
 
 Diese Ausgabe enthält **117 redaktionell zusammengestellte Datensätze aus zwölf Kategorien**. Sie umfasst insbesondere die bekannten Steinwürmer, Dornenranken, getarnten Pflanzen und Wandergolems, 23 legendäre Tiere, dokumentierte Haupt- und optionale Bosse sowie einige weitere Gegnertypen. Das ist eine **kuratierte, nicht vollständige Auswahl sämtlicher Kreaturen des Spiels**. Die externe Datenbank `crimsondesert.gaming.tools` umfasst wesentlich mehr Einträge. Für unklare Angaben werden ausdrücklich keine Positionen, Lootmengen oder Schwächen erfunden.
 
@@ -66,6 +66,17 @@ Pearl Abyss kündigte an, dass „Charting the Unknown“ am **29. Oktober 2026*
 
 ## Inhalte / Rechtliches
 
-Crimson Desert und die zugehörigen Namen sind Marken bzw. geistiges Eigentum ihrer Rechteinhaber (Pearl Abyss). Dieses eigenständige Fanprojekt ist **nicht offiziell** und steht **in keiner Verbindung zu Pearl Abyss**. Das generierte Titelbild und die gezeichneten Symbole sind eigenständige Illustrationen ohne die Übernahme offizieller Logos und Screenshots. Externe Texte wurden redaktionell zusammengefasst, nicht vollständig kopiert. Informationen können sich nach Spielupdates verändern.
+Crimson Desert und die zugehörigen Namen sind Marken bzw. geistiges Eigentum ihrer Rechteinhaber (Pearl Abyss). Dieses eigenständige Fanprojekt ist **nicht offiziell** und steht **in keiner Verbindung zu Pearl Abyss**. Das generierte Titelbild und die gezeichneten Symbole sind eigenständige Illustrationen. Zwei weitere, ausdrücklich als offiziell gekennzeichnete Spielimpressionen werden vom Pearl-Abyss-CDN geladen und sind geistiges Eigentum von Pearl Abyss; sie sind nicht im ZIP enthalten. Externe Texte wurden redaktionell zusammengefasst, nicht vollständig kopiert. Informationen können sich nach Spielupdates verändern.
 
 Der hier entwickelte HTML/CSS/JavaScript-Projektcode darf privat verändert und für diese Fan-Website eigenständig gehostet werden. Für Inhalte und fremde Quellen gelten weiterhin die Rechte der jeweiligen Urheber.
+
+
+## Fan-Content, Mediennutzung und Hinweise für Betreiber (Ausgabe 1.1)
+
+Diese Seite ist **kostenlos, nicht-kommerziell, unabhängig und nicht offiziell**. Die sichtbare Kennzeichnung befindet sich im Seitenkopf, in der Navigation, im Footer und unter **Über & Rechtliches**. Der Hinweis genügt **nicht allein**, wenn die übrigen Fan-Content-Richtlinien verletzt würden.
+
+- Offizielle Bildquellen: https://crimsondesert.pearlabyss.com/en-us/Media und die Richtlinien https://crimsondesert.pearlabyss.com/de-de/Policy?_policyNo=130; Angaben zu Bildrechten sind pro Foto in der Website sichtbar.
+- Die extern geladenen Bilder sind allgemeine Spielimpressionen, **keine geprüften Einzelmonster-Fotos**. Freigegebene offizielle Screenshots sollten künftig pro Gegner nur bei belegter Identität zugeordnet werden.
+- Für eine **öffentlich betriebene Webseite in Deutschland** können zusätzlich eigene Anforderungen an Impressum und Datenschutzhinweise bestehen. Diese Dokumente benötigen gegebenenfalls echte Betreiberangaben und sind nicht durch einen Urheberrechts-Disclaimer ersetzt. Der Betreiber sollte das eigenständig klären, bevor er die Seite langfristig öffentlich betreibt.
+- Extern geladene Bilder übertragen beim Aufruf technisch Verbindungsdaten an den jeweiligen Bildhost. Ohne Internet werden die Fotos nicht angezeigt; alle Lexikonfunktionen und Kategorie-Illustrationen bleiben nutzbar.
+- Ergänzt in Ausgabe 1.1: vierzehn Einträge mit besser belegten Kampf- oder Patchdaten, Boss-Revanche mit offiziellen Regeln und eine eigenständige Quellen-/Rechteseite.
